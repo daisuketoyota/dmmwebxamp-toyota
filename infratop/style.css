@@ -1,3 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
 .dmm{
-    color:pink;
+    height:200px;
+    background-image: url(img/asia.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px; /* 上側の内側余白で垂直方向の位置を調整 */
+    font-size: 30px;
+}
+
+.dmmtext{
+    color: black;
+    text-align: right; /* 文字を中央揃えにする */
+}
+
+.asia{
+  height: 200px;
+  background-image: url(img/japan.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.asia2{
+    height: 200px;
+  background-image: url(img/sunset.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.asia3{
+    height: 200px;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.asia4{
+    height: 200px;
+  background-image: url(img/snow.jpg);
+  background-size: cover;
+  background-position: center;
 }
